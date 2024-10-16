@@ -1,1 +1,7 @@
-h1{color:red}
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url(a9d385277b4833d366ce.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+.container{height:100vh;background-color:#e7e3eb}.container .header{padding:15px 20px;background-color:#6200ee}.container .header h1{color:red;font-family:"Open Sans Italic"}.container .react-logo{height:500px;width:500px;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}

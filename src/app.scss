@@ -1,0 +1,29 @@
+@import url(./font.scss);
+
+$h1-color: red;
+
+.container {
+
+    height: 100vh;
+    background-color: #E7E3EB;
+    
+    .header {
+        padding: 15px 20px;
+        background-color: #6200EE;
+        h1 {
+            color: $h1-color;
+            font-family: 'Open Sans Italic';
+        }
+    }
+    
+    .react-logo {
+        // background: url('./Assets/Images/react.svg') no-repeat center;
+        height: 500px;
+        width: 500px;
+        // background-size: contain;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
