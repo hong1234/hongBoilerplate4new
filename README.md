@@ -18,6 +18,7 @@ npm start
 npm run build
 
 // run server
+
 php -S localhost:3000 -t build/
 
 ## url in browser
